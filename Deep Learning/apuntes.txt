@@ -1,0 +1,6 @@
+Tensorflow es simplemente un backend para trabajar con tensores.
+
+Probablemente tenga que usar PlaidML que puede trabajar sobre
+GPUs AMD. Tensorflow solo trabaja sobre NVIDIA.
+
+Keras usa ese backend para las redes neuronales, en este caso seria PlaidML
