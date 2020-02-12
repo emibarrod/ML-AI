@@ -5,8 +5,5 @@ GPUs AMD. Tensorflow solo trabaja sobre NVIDIA.
 
 Keras usa ese backend para las redes neuronales, en este caso seria PlaidML
 
-Para poder usar tensorflow necesito instalar OpenCL y
+Para poder usar tensorflow necesito instalar opencl-amd/opencl-nvidia y
 los drivers propietarios (tanto de AMD como de NVIDIA).
-Para NVIDIA se necesita CUDA.
-Para AMD la cosa se complica, hay que instalar tensorflow-rocm ya que no hay
-implementacion para AMD por parte de tensorflow.
